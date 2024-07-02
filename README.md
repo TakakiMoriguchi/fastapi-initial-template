@@ -3,6 +3,9 @@
 以下、次に実行するFastAPIのインストールなどの手順
 
 ※ DEMOAPPはプロジェクト名を指定する事。
+docker-compose.ymlのdemo-appも同時に変更しておく事。
+
+docker compose build
 
 1. .dockerenvフォルダの作成
 ```commandline
@@ -26,7 +29,7 @@ docker compose build --no-cache
 
 5. サンプルファイルの作成
 ```commandline
-mkdir api && touch api/main.py && touch api/main.py
+mkdir api && touch api/__init__.py && touch api/main.py
 ```
 
 6. サンプルファイルの編集

@@ -1,11 +1,11 @@
 version: '3'
 services:
-  langchain-test:
+  demo-app:
     build: .
     volumes:
       - .dockerenv:/src .venv
       - .:/src
     ports:
-      - 8900:8000
+      - 8000:8000
     environment:
       - WATCHFILES/FORCE_POLLING=true
