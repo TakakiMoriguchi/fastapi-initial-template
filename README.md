@@ -1,5 +1,5 @@
-### FastAPI開発入門
-Chapter4 Dockerイメージの作成時のテンプレートファイル群
+### FastAPIの開発環境をDockerで構築するテンプレート
+「FastAPI開発入門」を元にChapter4 - Dockerイメージの作成時のテンプレートファイル群
 以下、次に実行するFastAPIのインストールなどの手順
 
 ※ DEMOAPPはプロジェクト名を指定する事。
